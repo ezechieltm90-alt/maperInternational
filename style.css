@@ -1,16 +1,22 @@
 body{
     position: relative;
-    background:rgb(161, 155, 161);
+    background-color: black;
+    color:rgb(16, 4, 32);
+
     font-family :Arial, Helvetica, sans-serif;
     font-size:larger;
     line-height: 0,5cm;
+    margin: 0;
+    padding: 60px;
     
 }
-h1{
-    color:rgb(15, 18, 228);
+.ecritext{
+    color:rgb(200, 243, 6);
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align:left;
-    display: block;
+    margin: 0px;
+    
+    
     
 }
 h3{
@@ -41,9 +47,10 @@ h3{
 
 }
 
-#ez{
-    position:absolute;
-    right: 50%;
+#eze{
+    display: block;
+   
+    
 }
 
 .special{
@@ -62,10 +69,23 @@ form{
         font-size: medium;
         font-family: 'Courier New', Courier, monospace;
         width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
 
 }
 button{
     color: white;
     background-color: black;
     
+}
+.color{
+    background-color: rgb(226, 240, 240);
+    padding: 8px;
+}
+mark{
+    background-color: aqua;
+}
+#formA{
+    color:aliceblue
 }
