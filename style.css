@@ -1,0 +1,71 @@
+body{
+    position: relative;
+    background:rgb(161, 155, 161);
+    font-family :Arial, Helvetica, sans-serif;
+    font-size:larger;
+    line-height: 0,5cm;
+    
+}
+h1{
+    color:rgb(15, 18, 228);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:left;
+    display: block;
+    
+}
+h3{
+    text-align: center;
+}
+
+
+.corps{
+    background-color: aqua;
+    max-width: 800px;
+    font-family: 'Courier New', Courier, monospace;
+     text-align: center;
+}
+.entete{
+    background-color: black;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-display: block;
+    font-style: italic;
+    font-weight: 10px;
+    text-align: center;
+}
+
+
+
+#tp{
+    border-radius: 115px
+
+}
+
+#ez{
+    position:absolute;
+    right: 50%;
+}
+
+.special{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+#tm{
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    border: 10px, black;
+}
+form{
+       background-color: aquamarine;
+        font-display: block;
+        font-size: medium;
+        font-family: 'Courier New', Courier, monospace;
+        width: 250px;
+
+}
+button{
+    color: white;
+    background-color: black;
+    
+}
