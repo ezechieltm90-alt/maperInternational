@@ -1,25 +1,46 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
     position: relative;
-    background-color: black;
+    background-color: rgb(6, 38, 106);
     color:rgb(16, 4, 32);
 
     font-family :Arial, Helvetica, sans-serif;
-    font-size:larger;
-    line-height: 0,5cm;
-    margin: 0;
-    padding: 60px;
     
 }
-.ecritext{
-    color:white;
-    font-family:montserrat;
-    text-align:left;
-    margin: 0px;
-    display: flex; 
-    flex-direction: column;
-      
-}
+header{
+    background-color: rgb(72, 29, 118);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 10px;
+    display: flex;
+    align-items: center;
 
+
+}
+.zone2 h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 5rem;
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin: 1rem;
+
+}
+.gor{
+    margin: 1rem;
+}
+.video{
+
+    display: flex;
+    gap: 4rem;
+    width: 100rem;
+    margin: 1rem;
+    height: 400px;
+}
 .image2{
     width: 400px;
     height: 200px;
@@ -31,15 +52,14 @@ h3{
 }
 
 
-.corps{
-    background-color: aqua;
+/*.corps{
+    background-color: rgb(35, 9, 155);
     max-width: 800px;
     font-family: 'Courier New', Courier, monospace;
      text-align: center;
-}
+}*/
 .entete{
-    background-color: black;
-    color: antiquewhite;
+    
     font-family: 'Times New Roman', Times, serif;
     font-display: block;
     font-style: italic;
@@ -83,12 +103,12 @@ button{
     
 }
 .color{
-    background-color: rgb(226, 240, 240);
-    padding: 8px;
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.7rem;
 }
-mark{
+/*mark{
     background-color: aqua;
-}
-#formA{
-    color:aliceblue
-}
+    border-radius: 3rem;
+}*/
