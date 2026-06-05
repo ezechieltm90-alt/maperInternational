@@ -11,13 +11,20 @@ body{
     
 }
 .ecritext{
-    color:rgb(15, 202, 40);
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    font-family:montserrat;
     text-align:left;
     margin: 0px;
-    
-    
-    
+    display: flex; 
+    flex-direction: column;
+      
+}
+
+.image2{
+    width: 400px;
+    height: 200px;
+    border-radius:80px;
+    object-fit: cover;
 }
 h3{
     text-align: center;
@@ -47,15 +54,11 @@ h3{
 
 }
 
-#eze{
+.eze{
     display: block;
-   
-    
-}
-
-.special{
-    color: blue;
-    font-family: 'Courier New', Courier, monospace;
+    width:200px ;
+    height: 200px;   
+    border-radius: 80px;
 }
 #tm{
     position: absolute;
